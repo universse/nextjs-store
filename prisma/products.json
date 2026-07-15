@@ -1,0 +1,38 @@
+[
+  {
+    "name": "luna armchair",
+    "company": "Arhaus",
+    "description": "The Luna Armchair features a sophisticated low-profile design with plush cushioning and soft ivory textured upholstery. Crafted for contemporary interiors, it offers exceptional comfort with its spacious seat, curved back support, and durable hardwood frame. Its minimalist silhouette and neutral tone make it an elegant addition to luxury living rooms, offices, or hospitality spaces.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/7195580/pexels-photo-7195580.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 2000,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "serene bed",
+    "company": "Thuma",
+    "description": "The Serene Bed combines minimalist elegance with modern comfort through its low-profile wooden frame and clean architectural lines. Featuring a natural oak finish, integrated floating base design, and warm under-bed lighting, it creates a calm, hotel-inspired atmosphere. Its spacious platform structure provides sturdy support while enhancing contemporary bedrooms with a refined, tranquil aesthetic.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/30989539/pexels-photo-30989539.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 2500,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "imperial sofa",
+    "company": "Homestead",
+    "description": "The Imperial Sofa combines dramatic elegance with luxurious comfort, featuring rich pink velvet upholstery, curved rolled arms, decorative tufting, and plush layered cushions. Designed as a statement centerpiece, this sophisticated sofa blends classic European-inspired details with modern glamour. Its handcrafted frame and premium materials create an inviting, stylish addition to upscale living rooms and boutique interiors.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/8135295/pexels-photo-8135295.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 5000,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "bedside lamp",
+    "company": "Comfora",
+    "description": "The Bedside Lamp blends natural warmth with contemporary simplicity, featuring a cylindrical linen shade, solid wood base, and sleek metal stem. Designed to create a soft ambient glow, it complements modern bedrooms, bedside tables, and relaxed interiors. Its minimalist craftsmanship and integrated USB charging feature provide both elegant style and everyday convenience for sophisticated living spaces.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/17994856/pexels-photo-17994856.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 400,
+    "clerkId": "clerkId"
+  }
+]
