@@ -27,6 +27,7 @@ const HeroCarousel = () => {
                     <Image
                       src={image}
                       alt="hero"
+                      preload={index === 0}
                       className="w-full h-[24rem] rounded-md object-cover"
                     />
                   </CardContent>
