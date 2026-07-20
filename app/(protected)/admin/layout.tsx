@@ -1,7 +1,16 @@
+import { auth } from "@clerk/nextjs/server";
+import { redirect } from "next/navigation";
+
 import { Separator } from "@/components/ui/separator";
 import Sidebar from "./Sidebar";
 
-const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
+async function DashboardLayout({ children }: { children: React.ReactNode }) {
+  const { sessionClaims } = await auth();
+
+  if (sessionClaims?.metadata?.role !== "admin") {
+    redirect("/");
+  }
+
   return (
     <>
       <h2 className="text-2xl pl-4">Dashboard</h2>
@@ -14,6 +23,6 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
       </section>
     </>
   );
-};
+}
 
 export default DashboardLayout;
